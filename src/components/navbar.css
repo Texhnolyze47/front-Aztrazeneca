@@ -1,0 +1,17 @@
+/* nav bar */
+.navbar {
+    background-color: #282c34;
+    width: 100%;
+    min-height: 10vh;
+}
+.navbar ul{
+    margin-top: 0;
+}
+.navbar ul li {
+    display: inline-flex;
+    list-style: none;
+    padding-right: 5%;
+    background-color: #282c34;
+    color: white;
+    font-size: calc(10px + 2vmin);
+}
