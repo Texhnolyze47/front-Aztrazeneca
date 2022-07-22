@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import './table.css'
 
 
 
@@ -15,16 +16,14 @@ function Table (){
 
     return(
         <div className="container">
-            <h2> Tabla de datos</h2>
-
             <table className="table">
                 <thead>
                     <tr>
                         <th>Id</th>
                         <th>Title Name</th>
                         <th>Last Refresh</th>
-                        <th>Recruiting</th>
                         <th>Url Site</th>
+                        <th>Recruiting</th>
                     </tr>
                 </thead>
                 <tbody>

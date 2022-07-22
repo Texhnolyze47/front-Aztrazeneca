@@ -1,6 +1,6 @@
 #cabecero{
     background-color: #282c34;
-    min-height: 20vh;
+    min-height: 15vh;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
