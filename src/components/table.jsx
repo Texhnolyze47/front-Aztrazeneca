@@ -15,8 +15,8 @@ function Table (){
     },[]);
 
     return(
-        <div className="container">
-            <table className="table">
+        <div className="table">
+            <table>
                 <thead>
                     <tr>
                         <th>Id</th>
@@ -27,7 +27,7 @@ function Table (){
                     </tr>
                 </thead>
                 <tbody>
-                {Estudios.map((item,i) => {
+                {Estudios.map((item) => {
                     return <tr>
                         <td>{item.id}</td>
                         <td>{item.titleName}</td>

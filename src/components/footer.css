@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 2vh;
+    background-color: #282c34;
+    height: 20vh;
+  }
+  .text {
+    padding-right: 10em;
+    padding-left: 10em;
+    color: white;
+  }
+  .title {
+    padding-right: 10em;
+    padding-left: 10em;
+    color: white;
+
+  }
+  .marca {
+    display: flex;
+    flex-direction: row;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+  }
+ 
+  

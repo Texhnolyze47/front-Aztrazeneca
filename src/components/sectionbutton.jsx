@@ -2,12 +2,16 @@ import './sectionbutton.css';
 
 function SectionButton(){
     return (
-        <div className="section-button">
-        <button className="btn btn-primary">
-            <i className="fa fa-plus"></i>
-            Add Section
+        <div className="contenedor-button">
+        <button className="button">
+            <i className="button-action"></i>
+            Download CSV
         </button>
-        </div>
+        <button className="button">
+            <i className="button-action"></i>
+            Download xlsx
+        </button>
+        </div> 
     );
 }
 
