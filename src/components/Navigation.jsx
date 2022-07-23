@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 
 export default function Navigation() {
     return (
-            <nav>
+           <div>
+             <nav>
                 <ul>
                     <li>
                         <Link to='/'>
@@ -10,7 +11,7 @@ export default function Navigation() {
                         </Link>
                     </li>
                     <li>
-                        <Link to='/Data'>
+                        <Link to='/Date'>
                             Data
                         </Link>
                     </li>
@@ -26,5 +27,6 @@ export default function Navigation() {
                     </li>
                 </ul>
             </nav>
+           </div>
     );
 }
