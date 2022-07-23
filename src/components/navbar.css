@@ -7,11 +7,23 @@
 .navbar ul{
     margin-top: 0;
 }
-.navbar ul li {
+
+.Links{
     display: inline-flex;
     list-style: none;
     padding-right: 5%;
     background-color: #282c34;
     color: white;
     font-size: calc(10px + 2vmin);
+    text-decoration: none;
+}
+
+.navbar-links{
+    display: inline-flex;
+    list-style: none;
+    padding-right: 5%;
+    background-color: #282c34;
+    color: white;
+    font-size: calc(10px + 2vmin);
+    text-decoration: none;
 }
