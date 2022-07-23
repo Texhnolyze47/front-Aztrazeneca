@@ -1,5 +1,9 @@
 import './navbar.css'
 
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Maps from './view/maps'
+
+
 function Navbar (){
     return(
         <div className='navbar'>
