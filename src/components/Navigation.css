@@ -1,14 +1,15 @@
 /* nav bar */
-.navbar {
+nav {
     background-color: #282c34;
     width: 100%;
     min-height: 10vh;
 }
-.navbar ul{
+nav ul{
     margin-top: 0;
+    padding-right: 1em;
 }
 
-.Links{
+.listas{
     display: inline-flex;
     list-style: none;
     padding-right: 5%;
@@ -18,10 +19,11 @@
     text-decoration: none;
 }
 
-.navbar-links{
+.listas-links{
+    text-decoration: none;
     display: inline-flex;
     list-style: none;
-    padding-right: 5%;
+    margin-right: 2em;
     background-color: #282c34;
     color: white;
     font-size: calc(10px + 2vmin);
