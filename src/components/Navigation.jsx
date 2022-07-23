@@ -12,7 +12,7 @@ export default function Navigation() {
                         </Link>
                     </li>
                     <li >
-                        <Link className="listas-links" to='/Date'>
+                        <Link className="listas-links" to='/Data'>
                             Data
                         </Link>
                     </li>
