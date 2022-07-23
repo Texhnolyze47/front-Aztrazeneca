@@ -5,15 +5,8 @@ import Navigation from './components/Navigation'
 export default function App(){
     return(
         <div>
-                            <Navigation />
+            <Navigation />
 
-{/*             
-            <BrowserRouter>
-                App
-                <Routes>
-                    <Route path='/' element={Home} />
-                </Routes>
-            </BrowserRouter> */}
             App
         </div>
     )
