@@ -1,6 +1,6 @@
 import './sectionbutton.css';
 
-function SectionButton(){
+export default function SectionButton(){
     return (
         <div className="contenedor-button">
         <button className="button">
@@ -15,4 +15,3 @@ function SectionButton(){
     );
 }
 
-export default SectionButton;
