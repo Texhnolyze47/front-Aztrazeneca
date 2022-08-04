@@ -1,22 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import Cabecero from './components/cabecero';
-import Navbar from './components/navbar';
-import Table from './components/table';
-import SectionButton from './components/sectionbutton';
-import Footer from './components/footer'
 
-
+import App from './App'
+import Maps from './routes/Maps'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Cabecero />
-    <Navbar />
-    <Table />
-    <SectionButton /> 
-    <Footer />
+    <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<App />} />
+          <Route path='Maps' element={<Maps/>} />
+        </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
